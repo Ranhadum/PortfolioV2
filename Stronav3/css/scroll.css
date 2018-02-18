@@ -1,0 +1,118 @@
+
+body {
+    width: 100%;
+    height: 100%;
+	font-family: 'Rubik', sans-serif;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+.navbar-inverse {
+    background-color: #2d2d2d;
+    font-weight: bold;
+    font-size: 17px
+}
+
+.navbar-brand {
+    font-size: 20px;   
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.home-section {
+    background-color: #eaf3f7;
+    text-align:center;
+    height:100%;
+}
+.int-section {
+    background-color: #c5e0dc;
+    height:100%;
+    text-align:center;
+}
+.skill-section {
+    background-color: #eaf3f7;
+    height:100%;
+    text-align:center;
+}
+.exp-section {
+    background-color: #c5e0dc;
+    height:100%;
+    text-align:center;
+
+}
+.dp-section {
+    background-color: #eaf3f7;
+    height:100%;
+    text-align:center;
+
+}
+
+.itemz {
+    margin-top: 12%
+}
+.jumbotron1 {
+    background-color: #c1ccdd;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.page-header1 {
+    border-bottom: 1px solid #c1ccdd;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.page-header2 {
+    border-bottom: 1px solid #b4c1ba;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.jumbotron2 {
+    background-color: #b4c1ba;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.zdjcs {
+    border-radius: 20%;
+    width: 150px;
+    height: auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.imgjb {
+    margin-right: 5%;
+}
+.foot {
+    height: 50px;
+    background-color: #262626;
+    color: white;
+}
+
+.progress {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.progress-bar-custom {
+    background-color: #b4c1ba;
+}
+
+.progress-bar-custom {
+    background: rgba(106, 122, 108, 1); 
+    background: linear-gradient(to bottom, rgba(173, 173, 173, 1) 0%, rgba(106, 122, 108, 1) 100%);}

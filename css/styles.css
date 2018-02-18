@@ -1,0 +1,13 @@
+.about-me {
+  margin-top: 50px;
+}
+
+@media screen and (max-width : 600px) {
+  .about-me-info {
+    margin-top: 50px;
+  }
+  .page-header2, .page-header1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

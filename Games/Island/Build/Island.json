@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Island.data.unityweb",
+"asmCodeUrl": "Island.asm.code.unityweb",
+"asmMemoryUrl": "Island.asm.memory.unityweb",
+"asmFrameworkUrl": "Island.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
