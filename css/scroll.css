@@ -64,7 +64,8 @@ html {
 }
 
 .itemz {
-    margin-top: 15%
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .jumbotron1 {
     background-color: #c1ccdd;
@@ -72,15 +73,17 @@ html {
     margin-right: 10%;
 }
 .page-header1 {
-    border-bottom: 1px solid #c1ccdd;
+    border-bottom: 2px solid #c1ccdd;
     margin-left: 30%;
     margin-right: 30%;
+    margin-bottom: 5%;
 }
 
 .page-header2 {
-    border-bottom: 1px solid #b4c1ba;
+    border-bottom: 2px solid #b4c1ba;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 5%;
 }
 
 .jumbotron2 {
@@ -99,7 +102,7 @@ html {
     margin-right: 5%;
 }
 .foot {
-    height: 50px;
+    height: 40px;
     background-color: #262626;
     color: white;
 }
@@ -116,3 +119,22 @@ html {
 .progress-bar-custom {
     background: rgba(106, 122, 108, 1);
     background: linear-gradient(to bottom, rgba(173, 173, 173, 1) 0%, rgba(106, 122, 108, 1) 100%);}
+
+.projectColumns {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.miniHeader {
+    font-size: 22px;
+}
+.myFoot {
+    margin-top: 1%;
+}
+.projectTable {
+    border-collapse: collapse;
+}
+.inText {
+    font-size: 18px;
+    margin-top: 5%;
+}

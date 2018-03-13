@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 itemz">
-                        <div class="page-header page-header1">
+                        <div class="page-header page-header1" style = "margin-top: 10%">
                             <h1>O mnie</h1>
                         </div>
                         <div class="row about-me">
@@ -76,7 +76,9 @@
                                 <img class="img-thumbnail" src="imgsrc.jpg" width="150">
                           </div>
                           <div class="col-sm-8 about-me-info">
-                                <p>tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst</p>
+                                <p class = "inText">Nazywam się Michał. Jestem 21 letnim pasjonatą gier komputerowych i początkującym programistą w C#. Aktualnie staram się zostać pełno prawnym game developerem. W między czasie pracuję 
+                                    nad swoimi projektami w Unity3D oraz w Blenderze. Niektóre z nich można zobaczyć w seksji "Projekty". 
+                                </p>
                           </div>
                         </div>
                     </div>
@@ -87,18 +89,26 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 itemz">
-                        <div class="page-header page-header2">
+                        <div class="page-header page-header2"  style="margin-bottom: 10%">
                             <h1>Zainteresowania</h1>
                         </div>
                         <div class="row">
-                          <div class="col-xs-12">
-                                <ul>
-                                    <li>game dev</li>
-                                    <li>World of Warcraft</li>
-                                    <li>Różne aktywności na świerzym powietrzu</li>
-                                    <li>E-Sport</li>
-                                </ul>
-                          </div>
+                          <div class="col-lg-4">
+                             <img class="img-circle" src="ing/gamedev.png" width="140" height="140">
+                                <h2>Game-dev</h2>
+                            </div>
+                            <div class="col-lg-4">
+                             <img src="ing/wow.png" width="140" height="140">
+                                <h2>WoW</h2>
+                            </div>
+                            <div class="col-lg-4">
+                             <img class="img-circle" src="ing/outdoor.png" width="160" height="140">
+                                <h2>Outdoors</h2>
+                            </div>
+                            <div class="col-6">
+                             <img class="img-circle" src="ing/esport.jpg" width="160" height="140">
+                                <h2>E-sport</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -114,21 +124,25 @@
                         <div class="row">
                             <div class="col-xs-12">
                               <div class="progress">
-                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                  Unity3d
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                        70%
+                                </div>
+                                </div>
+                                <div class="progress">
+                                    Blender3D
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">
+                                        35%
+                                </div>
+                                </div>
+                                <div class="progress">
+                                    C#
+                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%" >
                                         20%
                                 </div>
                                 </div>
                                 <div class="progress">
-                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                                        50%
-                                </div>
-                                </div>
-                                <div class="progress">
-                                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-                                        25%
-                                </div>
-                                </div>
-                                <div class="progress">
+                                    C++
                                 <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100" style="width: 12%;">
                                         12%
                                 </div>
@@ -146,11 +160,29 @@
                         <div class="page-header page-header2">
                             <h1>Projekty</h1>
                         </div>
-                        <div>
-                            <ul>
-                                <li><a href="Games/Prison/index.html">Prison Game</a></li>
-                                <li><a href="Games/Arcanoid/index.html">Prison Game</a></li>
-                            </ul>
+                        <div class = "col-md-4 box-shadow">
+                            <img class = "card-img top" src="ing/Prison.png" style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                            <div class = "card-body">
+                                <p class = "card-text"><a href="Games/Prison/index.html" class = "miniHeader">OutPrison</a></p>
+                            </div>
+                        </div>
+                        <div class = "col-md-4 box-shadow">
+                            <img class = "card-img top" src="ing/Arcanoid.png" style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                            <div class = "card-body">
+                                <p class = "card-text"><a href="Games/Arcanoid/index.html" class = "miniHeader">Arcanoid</a></p>
+                            </div>
+                        </div>
+                        <div class = "col-md-4 box-shadow">
+                            <img class = "card-img top" src="ing/Survival_Island.png" style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                            <div class = "card-body">
+                                <p class = "card-text"><a class = "miniHeader">Surival Island</a></p>
+                            </div>
+                        </div>
+                          <div class = "col-md-4 box-shadow">
+                            <img class = "card-img top" src="ing/soon.png" style="height: 225px; width: 100%; display: block;" data-holder-rendered="true">
+                            <div class = "card-body">
+                                <p class = "card-text"><a class = "miniHeader">TBD</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -161,7 +193,14 @@
                 <div class="row">
                     <div class="col-xs-12 itemz">
                         <div class="page-header page-header1">
-                            <h1>Links and Docs</h1>
+                            <h1>Linki, dokumenty, kontakt</h1>
+                        </div>
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    <a class="text-dark" href="docs/Technik.pdf">Dyplom Technika Informatyka</a>
+                                </h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -170,8 +209,8 @@
         <footer class="text-center foot">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
-                        Copyright © Michał Szczepaniak
+                    <div class="col-xs-12 myFoot">
+                        Copyright © Michał Szczepaniak, E-mail: szczepaniakszczep@gmail.com
                     </div>
                 </div>
             </div>
